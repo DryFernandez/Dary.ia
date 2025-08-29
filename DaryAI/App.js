@@ -1,10 +1,10 @@
 
-import NavigationMenu from './NavigationMenu';
+import { AppWithSession } from './NavigationMenu';
 import "./global.css";
 
 export default function App() {
   return (
-  <NavigationMenu />
+    <AppWithSession />
   );
 }
 
